@@ -187,9 +187,36 @@ main h3 {
 
 #about {
     text-align: center;
-    height: auto;
+    height: 300px;
     width: 100%;
-    background-color: grey;
-    font-family: "Open Sans";
+    font-family: 'Sigmar One', cursive;
+    padding: 60px;
 }
 
+footer {
+    background-color: black;
+}
+
+footer nav .fstyle  {
+    max-width: 980px;
+    margin: auto;
+    font-family: 'Sigmar One', cursive;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid transparent;
+    padding: 5px;
+    list-style-type: none;
+}
+
+footer nav a  {
+    max-width: 980px;
+    margin: auto;
+    font-family: 'Sigmar One', cursive;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid transparent;
+    padding: 5px;
+    list-style-type: none;
+}
