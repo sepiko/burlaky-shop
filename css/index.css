@@ -193,11 +193,17 @@ main h3 {
     padding: 60px;
 }
 
-footer {
-    background-color: black;
+ footer {
+    background-color: rgb(65, 81, 225);
 }
 
-footer nav .fstyle  {
+footer nav .box1  {
+    text-emphasis-color: red;
+    text-transform: uppercase;
+
+}
+
+/* footer nav .fstyle  {
     max-width: 980px;
     margin: auto;
     font-family: 'Sigmar One', cursive;
@@ -219,4 +225,38 @@ footer nav a  {
     border: 1px solid transparent;
     padding: 5px;
     list-style-type: none;
-}
+} */
+
+    /* .flex-container  {
+    font-family: 'Sigmar One', cursive;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    }
+
+    .flex-item:nth-child(1) a {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    list-style-type: none;
+    }
+
+    .flex-item:nth-child(2) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+
+    .flex-item:nth-child(3) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    } */
+
+ */
