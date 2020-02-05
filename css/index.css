@@ -192,14 +192,58 @@ main h3 {
     padding: 60px;
 }
 
-footer {
-    display: grid;
-    grid-template-rows: 50px 50px 50px;
+footer  {
+    display: flex;
     text-align: center;
-    max-width: 100%;
     font-family: 'Sigmar One', cursive;
-    padding: 60px;
     list-style-type: none;
     text-decoration: none;
+    max-width: 100%;
+    margin: 2%;
+    background-color: powderblue;
 
 }
+
+footer nav ul  {
+    display: flexbox;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Sigmar One', cursive;
+}
+
+
+
+footer nav #A a {
+    display: flex;
+    font-family: 'Sigmar One', cursive;
+    padding: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: yellow;
+    width: 300px;
+    }
+
+ footer nav #B a {
+    display: flex;
+    font-family: 'Sigmar One', cursive;
+    padding: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: green;
+    width: 300px;
+    }
+
+    footer nav #C a {
+    display: flex;
+    font-family: 'Sigmar One', cursive;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 30px;
+    text-align: center;
+    background-color: orange;
+    width: 300px;
+    }
+  
