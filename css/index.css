@@ -67,8 +67,8 @@ header nav .menu a:hover{
 }
 
 main section .product-card {
-    display: flex;
-    align-items: unset;
+    display: block;
+    align-items: center;
     border: 1px solid transparent;
     justify-content: space-around;
 }
@@ -77,9 +77,6 @@ main section .price {
     font-family: 'Sigmar One', cursive;
 }
 
-main h3 {
-    font-family: 'Sigmar One', cursive;
-}
 
 
 @media (min-width: 800px) {
@@ -87,8 +84,20 @@ main h3 {
         display: flex;
     }
 }
+main .border {
+    width: 300px;
+    margin: 20px;
+    background: white;
+    padding: 20px;
+    border: 1px solid #F1E7E8;
+}
+.product-wrap img {
+  display: block;
+  width: 100%;
+}
 
-* {box-sizing: border-box;}
+/* 
+{box-sizing: border-box;}
 .border {
   width: 300px;
   margin: 20px;
@@ -171,79 +180,47 @@ main h3 {
 
 .product-title {
   font-weight: normal;
-  font-family: "Open Sans";
+  font-family: 'Sigmar One', cursive;
   color: #162546;
-  font-size: 18px;
+  font-size: 20px;
 }
 .price {
   font-family: "Open Sans";
   color: #162546;
   font-style: italic;
   font-weight: bold;
-}
-
-/* About Us */
-
+} */
 #about {
     text-align: center;
     height: 300px;
     width: 100%;
     font-family: 'Sigmar One', cursive;
     padding: 60px;
-}
+   }
 
-footer  {
-    display: flex;
-    text-align: center;
-    font-family: 'Sigmar One', cursive;
-    list-style-type: none;
-    text-decoration: none;
-    max-width: 100%;
-    margin: 2%;
-    background-color: powderblue;
+    footer{
+      width: 100%;
+      height: auto;
+      background: grey;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 25px;
+    }
+      footer a,p{
+        font-family: 'Sigmar One', cursive;
+        color: black;
+        font-size: 24px;
+        margin-left: 10px;
+        text-decoration: none;
+        
+    }
+    footer nav a:hover{
+      border: 1px solid black;
+      padding: 1px;
 
-}
-
-footer nav ul  {
-    display: flexbox;
-    justify-content: space-around;
-    list-style-type: none;
-    text-decoration: none;
-    font-family: 'Sigmar One', cursive;
-}
-
-
-
-footer nav #A a {
-    display: flex;
-    font-family: 'Sigmar One', cursive;
-    padding: 30px;
-    list-style-type: none;
-    text-decoration: none;
-    text-align: center;
-    background-color: yellow;
-    width: 300px;
     }
 
- footer nav #B a {
-    display: flex;
-    font-family: 'Sigmar One', cursive;
-    padding: 30px;
-    list-style-type: none;
-    text-decoration: none;
-    text-align: center;
-    background-color: green;
-    width: 300px;
-    }
-
-    footer nav #C a {
-    display: flex;
-    font-family: 'Sigmar One', cursive;
-    list-style-type: none;
-    text-decoration: none;
-    padding: 30px;
-    text-align: center;
-    background-color: orange;
-    width: 300px;
-    }
-  
+    .social img {
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }  */
