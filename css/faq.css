@@ -97,10 +97,11 @@ section{
 }
 
 .answer {
-    min-height: 0;
+    max-height: 0;
     overflow: hidden;
     position: relative;
     background-color: #212838;
+    transition: max-height 650ms;
 
 }
 
@@ -118,6 +119,8 @@ section{
 .answer p {
     color: rgba(255, 255, 255, .6);
     font-size: 1.4rem;
+    background-color: #212838;
+    transition: max-height 650ms;
     padding: 2rem;
 }
 
@@ -125,7 +128,13 @@ section{
     max-height: 20rem;
 }
 
+.accordion-item:target .accordion-link .ion-md-add {
+    display: none;
+}
 
+.accordion-item:target .accordion-link .ion-md-remove {
+    display: block;
+}
 
 
 
