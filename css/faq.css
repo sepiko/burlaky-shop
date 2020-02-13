@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
 h3, h1, p, section, main, footer {
     margin: 0;
@@ -37,7 +37,7 @@ margin-left: 5px;
 }
 .headerButton{
     cursor: pointer;
-}     */
+}    
 
 
 *,
@@ -59,8 +59,10 @@ section{
     height: 100vh;
     background-color: #3c4053;
     align-items: center;
-    justify-content: center;
-    }
+    justify-content: center ;
+    /* margin-top: 2rem; */
+}
+
 .container{
     width: 100%;
     min-width: 80rem;
@@ -136,7 +138,31 @@ section{
     display: block;
 }
 
+footer{
+    width: 100%;
+    height: auto;
+    background: grey;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+  }
+footer a,p{
+      font-family: 'Josefin Sans', sans-serif;
+      color: black;
+      font-size: 24px;
+      margin-left: 10px;
+      text-decoration: none;
+      
+  }
+footer nav a:hover{
+    border: 1px solid black;
+    
+  }
 
+.social img {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }  
 
 
 
