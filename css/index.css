@@ -163,11 +163,10 @@ main .product-card .button-group {
     }
     footer nav a:hover{
       border: 1px solid black;
-      padding: 1px;
-
+      
     }
 
     .social img {
       margin-left: 10px;
       margin-bottom: 10px;
-    }  */
+    }  
