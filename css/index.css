@@ -3,7 +3,7 @@
 h3, h1, p, section, main, footer {
     margin: 0;
     padding: 0;
-    width: auto;
+    width: 100%;
     }
 
  a{
