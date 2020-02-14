@@ -1,0 +1,35 @@
+/* *,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; */
+
+    footer a,
+    p {
+      font-family: "Josefin Sans", sans-serif;
+      color: black;
+      font-size: 24px;
+      margin-left: 10px;
+      text-decoration: none;
+    }
+    footer nav a:hover {
+      border: 1px solid black;
+    }
+    
+    .social img {
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+    
+    main .contactus {
+      background-color: coral;
+    }
+
+    main .form-inputs {
+        background-color: darkgoldenrod;
+    }
+
+    main .mailing-list {
+        background-color: yellowgreen;
+    }

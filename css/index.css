@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
-h3, h1, p, section, main, footer {
+h3, h1, p,  main, footer {
     margin: 0;
     padding: 0;
-    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+
     }
 
  a{
@@ -39,10 +40,10 @@ margin-left: 5px;
 .headerButton{
     cursor: pointer;
 }
-/* @media (min-width: 980px) {
+@media (min-width: 980px) {
   .header {
       grid-template-columns: 1fr 1fr 1fr 1fr;
-  } */
+  }
 
 main .product-list{
   margin-block-end: 100px;
@@ -102,9 +103,6 @@ main .product-card .button-group {
   .product-list {
       grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  
-  
-
 
 .button {
   display: inline-block;
@@ -138,10 +136,12 @@ main .product-card .button-group {
 }
 
 
-#about {
+.about {
+  display: flex;
+  flex-direction: column;
     text-align: center;
     height: 500px;
-    width: 100%;
+    width: auto;
     font-family: 'Josefin Sans', sans-serif;
     padding: 60px;
    }
@@ -164,10 +164,5 @@ main .product-card .button-group {
     }
     footer nav a:hover{
       border: 1px solid black;
-      
     }
 
-    .social img {
-      margin-left: 10px;
-      margin-bottom: 10px;
-    }  
