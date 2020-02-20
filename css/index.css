@@ -156,6 +156,7 @@ main .product-card .button-group {
       margin: 0 auto;
       text-align: center;
       padding-top: 25px;
+      
     }
       footer a,p{
         font-family: 'Josefin Sans', sans-serif;
@@ -166,6 +167,7 @@ main .product-card .button-group {
         
     }
     footer nav a:hover{
-      border: 1px solid black;
+      /* border: 1px solid black; */
+      text-decoration: none;
     }
 
